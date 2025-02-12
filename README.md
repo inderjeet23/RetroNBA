@@ -1,45 +1,87 @@
-# 90s Style NBA Scores Page 🏀
+# 🏀 Retro NBA Scores
 
-A retro-styled NBA scores page that displays current day's games and team standings with a nostalgic 90s web design aesthetic.
+A nostalgic, 90s-style NBA scores dashboard that brings back the golden era of web design while delivering real-time NBA game information. This project combines modern functionality with retro aesthetics, featuring classic web elements like marquee text, visitor counters, and "Best viewed in Netscape Navigator" badges.
 
-## Features
+![Retro NBA Scores](img/preview.gif)
 
-- Live NBA scores and game updates
-- Team standings and conference seeds
-- Retro 90s web design
-- Animated elements and cursor effects
-- Responsive layout
-- Auto-refresh every 30 seconds
+## ⭐ Features
 
-## Setup
+- **Real-time NBA Scores**: Live game updates with scores, time, and game status
+- **90s Web Design**: Authentic retro aesthetics including:
+  - Neon color schemes
+  - Pixelated graphics
+  - Classic web badges
+  - Marquee text
+  - Visitor counter
+  - Retro fonts (Press Start 2P, VT323)
+- **Interactive Elements**:
+  - Hover effects with neon glows
+  - Animated loading states
+  - Game details modal with box scores
+  - Sound effects for interactions
+- **Responsive Design**: Works on modern devices while maintaining retro feel
+- **Custom Cursor**: Basketball-themed cursor
 
-1. Clone this repository
-2. Open `index.html` in your web browser
-3. That's it! No build process required 🎉
+## 🚀 Getting Started
 
-## Technical Details
+### Prerequisites
+- A modern web browser (but we still love Netscape Navigator!)
+- Local development server (like Live Server for VS Code)
 
-This project uses:
-- Vanilla JavaScript (No frameworks!)
-- CSS3 for styling
-- [balldontlie API](https://www.balldontlie.io/) for NBA data
-- NBA's official CDN for team logos
-- Google Fonts for retro typography
+### Installation
 
-## Browser Compatibility
+1. Clone the repository:
+```bash
+git clone https://github.com/inderjeet23/RetroNBA.git
+```
 
-Best viewed in:
-- Netscape Navigator 4.0 or higher
-- Internet Explorer 5.0 or higher
-- Modern browsers (if you must 😉)
+2. Navigate to the project directory:
+```bash
+cd RetroNBA
+```
 
-## Credits
+3. Open `index.html` in your browser or use a local development server
 
-- NBA data provided by [balldontlie API](https://www.balldontlie.io/)
-- Team logos from NBA's official CDN
-- Retro fonts from Google Fonts
-- Built with ❤️ and nostalgia
+## 🎮 How It Works
 
-## License
+The application fetches real-time NBA game data and displays it in a retro-styled interface. Games are color-coded based on their status:
+- 🟢 Scheduled games
+- 🔴 Live games (with pulsing animation)
+- 🔵 Completed games
 
-MIT License - Feel free to use this for your own retro projects! 
+Click on any game to view detailed box scores and statistics in a retro-styled modal.
+
+## 🎨 Technologies Used
+
+- HTML5
+- CSS3 (with retro-styled animations)
+- Vanilla JavaScript
+- NBA Data API
+- Custom retro sound effects
+- Retro-styled assets and graphics
+
+## 🌟 Acknowledgments
+
+- Inspired by 90s web design
+- NBA for game data
+- Retro gaming aesthetics
+- Classic web elements from the golden age of the internet
+
+## 📝 License
+
+This project is open source and available under the MIT License.
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/inderjeet23/RetroNBA/issues).
+
+## 📧 Contact
+
+Inderjeet - [@inderjeet23](https://github.com/inderjeet23)
+
+Project Link: [https://github.com/inderjeet23/RetroNBA](https://github.com/inderjeet23/RetroNBA)
+
+---
+*⭐ Made with Web 1.0 Love 💾*
+
+*Best viewed in Netscape Navigator 4.0 at 800x600 resolution* 
