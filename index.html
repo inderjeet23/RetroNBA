@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🏀 90s NBA Scores</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="main-header">
+            <div class="title-banner">
+                <div class="pixel-banner"></div>
+                <h1>NBA SCORES</h1>
+                <div class="pixel-banner"></div>
+            </div>
+            <p class="tagline">⭐ YOUR DAILY DOSE OF 90s HOOPS ⭐</p>
+            <div class="marquee">
+                <p>Welcome to the most radical NBA scores page on the web! • Updated live • Bookmark this page! •</p>
+            </div>
+        </header>
+
+        <main>
+            <div class="scores-container">
+                <div class="loading">
+                    <img src="img/basketball.gif" alt="Loading..." class="loading-gif">
+                    <p>Loading Scores...</p>
+                </div>
+            </div>
+
+            <template id="scores-table-template">
+                <table class="scores-table">
+                    <thead>
+                        <tr>
+                            <th>TIME/STATUS</th>
+                            <th>AWAY</th>
+                            <th>SCORE</th>
+                            <th></th>
+                            <th>HOME</th>
+                            <th>SCORE</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Scores will be inserted here -->
+                    </tbody>
+                </table>
+            </template>
+        </main>
+
+        <footer class="retro-footer">
+            <div class="footer-content">
+                <div class="visitor-section">
+                    <img src="img/counter.gif" alt="Visitor counter">
+                    <span class="visitor-count">Visitors: 000001</span>
+                </div>
+                
+                <div class="footer-text">
+                    <p class="copyright">© 2024 NBA SCORES TIME MACHINE</p>
+                    <p class="bookmark-text">⭐ BOOKMARK THIS PAGE! ⭐</p>
+                    <p class="made-with">Made with Web 1.0 Love 💾</p>
+                </div>
+
+                <div class="browser-badges">
+                    <img src="img/netscape.gif" alt="Netscape Now!" class="badge" title="Best viewed in Netscape Navigator 4.0">
+                    <img src="img/ie.gif" alt="Internet Explorer" class="badge">
+                    <img src="img/construction.gif" alt="Under Construction" class="badge">
+                </div>
+
+                <p class="browser-note">* Optimized for Netscape Navigator... because that's how we roll! (800x600 or die trying) *</p>
+            </div>
+        </footer>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html> 
