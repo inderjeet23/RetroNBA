@@ -2,8 +2,6 @@
 
 A nostalgic, 90s-style NBA scores dashboard that brings back the golden era of web design while delivering real-time NBA game information. This project combines modern functionality with retro aesthetics, featuring classic web elements like marquee text, visitor counters, and "Best viewed in Netscape Navigator" badges.
 
-![Retro NBA Scores](img/preview.gif)
-
 ## ⭐ Features
 
 - **Real-time NBA Scores**: Live game updates with scores, time, and game status
